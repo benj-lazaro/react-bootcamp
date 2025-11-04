@@ -1,0 +1,6 @@
+Project Resource
+----------------
+- Course code snippets can be downloaded from
+    - DotNetMastery (https://www.dotnetmastery.com/Home/Details?courseId=36)
+    - GitHub repository (https://github.com/bhrugen?tab=repositories)
+
