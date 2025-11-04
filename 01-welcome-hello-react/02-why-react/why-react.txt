@@ -1,0 +1,46 @@
+Why Should You Learn React?
+---------------------------
+- React is a JavaScript library
+    - Created by Facebook
+
+    - Used to build reactive user interfaces (UI)
+        - Part of a web application that users interact with
+        - e.g. forms, menus, buttons, dashboards, etc.
+
+    - It simplifies the development of modern web applications
+        - By enabling component-based architecture
+
+
+- Key features
+    - Component-based architecture
+        - It breaks complex UI into small, reusable pieces called as "components"
+        - Think of a "component" as a Lego block
+        - Combine components to build anything that you want
+
+    - Fast updates with Virtual DOM
+        - Update ONLY what is needed
+    
+    - Declarative approach
+        - Describe what the UI should look like
+        - React takes care of the updates
+        - Makes code simpler to read & maintain
+
+    - Huge ecosystem & community
+        - Vast library of 3rd-party components & tools
+        - With strong community support
+
+
+- Benefits of learning React
+    - Build modern, interactive web apps
+        - It is a powerful tool for creating modern, highly interactive web app
+        - WIth a smooth & responsive user experience
+
+    - Boosts frontend developer career
+        - Highly sought skill for frontend developer jobs
+        - Widely adopted by leading companies
+        - High demand in the job market
+  
+    - Learn transferable concepts
+        - Gain deeper understanding of core concepts
+        - Concepts that apply to other modern frontend frameworks & libraries
+        - Help becoming a versatile developer
