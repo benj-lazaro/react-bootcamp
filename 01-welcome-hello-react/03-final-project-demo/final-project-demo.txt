@@ -1,0 +1,31 @@
+Final Project Demo
+------------------
+- The final project is to create an e-commerce web application
+    - Login feature
+        - Admin
+        - User (customer)
+
+    - Shopping cart
+
+    - Local search for specific products
+        - Automatically filters the listed products as the user types
+
+    - Notification
+        - User adds an item to the shopping cart
+        - User login / sign-up
+    
+    - Product details
+        - Quick view of the selected product
+        - Provide details about the product
+
+    - Checkout
+        - Shipping information
+        - Order summary
+        - Generation of Order ID when item(s) is/are checked out
+    
+    - Manage products (Admin)
+        - Manage product details & stocks
+
+
+    - Order management (Admin)
+        - Managed placed orders by customers
