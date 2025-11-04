@@ -1,0 +1,18 @@
+Welcome
+-------
+- This is a job-focused course (bootcamp)
+    - Learning the best practices that real companies use    
+    
+    - Concludes with a final project that mirrors real world experience
+        - Gain knowledge on React
+        - Gain confidence to build own dynamic web application
+        - Add React projects to one's portfolio
+    
+    - Includes 9 projects and 15+ assignments
+        - Provide plenty of hands-on practice
+
+    - Course is designed to be
+        - Hands-on
+        - Project based
+        - Beginner friendly
+    
