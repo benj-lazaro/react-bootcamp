@@ -1,0 +1,14 @@
+Install Visual Studio Code
+--------------------------
+- Download VS Code
+    - Website (https://code.visualstudio.com/download)
+
+
+- Install the following VS Code extensions
+    - Material Icon Theme
+    - Prettier - Code Formatter
+
+
+- VS Code settings
+    - Search for "Default Formatter"
+    - Select the menu option "Prettier - Code Formatter"
