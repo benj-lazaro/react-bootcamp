@@ -1,0 +1,94 @@
+Create Project
+--------------
+- To create a React project using Vite
+    - Reference (https://vite.dev/guide/#scaffolding-your-first-vite-project)
+
+
+- Open project folder in VS Code
+    - Launch an integrated terminal window
+    - NOTE: On Windows, this launches a PowerShell (PS) prompt
+    
+
+- Use Node.JS's npm (node package manager) to create a Vite project
+
+    npm create vite@latest
+
+    - NOTE: On Windows, might encounter the warning
+
+            "cannot be loaded because running scripts is disabled..."
+
+    - To address this concern
+        - Run the PS command
+
+            Set-ExecutionPolicy RemotedSigned -Scope CurrentUser
+
+        - Restart the VS Code editor
+            - Re-open the project folder and launch the integrated terminal window
+
+        - Execute the npm command
+
+            npm create vite@latest
+
+
+- The npm asks for confirmation to install the package "create-vite"
+    - Press 'y' to proceed
+
+
+- The npm asks for the project's project name
+    - Provide the project name
+    - Press ENTER to proceed
+
+
+- The npm asks for what JavaScript framework to install
+    - Use the arrow keys to select from the list 
+    - Choose "React"
+    - Press ENTER to proceed
+
+
+- The npm asks for a variant to install
+    - Use the arrow keys to select from the list 
+    - Choose "JavaScript"
+    - Press ENTER to proceed
+
+- The npm asks to use rolldown-vite (Experimental)
+    - Use the arrow keys to select from the list 
+    - Choose "No" (default)
+    - Press ENTER to proceed
+
+ 
+ - The npm asks to install with 'npm' and start now
+    - Use the arrow keys to select from the list 
+    - Choose "No" (default)
+    - Press ENTER to proceed
+
+
+- The npm downloads and install dependencies in the background
+    - Vite generates the React project files
+
+
+- The npm automatically runs and locally hosts the React project
+    - Generates a URL display in the "Local" field
+    - Copy & paste the generated URL on a browser
+    - Browser laods the starter React project
+
+
+- This procedure create a basic template for a 
+    - React project using plain JavaScript
+
+
+- NOTE: To manually start the generated React project
+    - Open the integrated teminal window
+
+    - Execute the commands
+
+        cd <project_folder>/
+
+        npm run dev
+
+
+- The generated file "package.json" 
+    - Lists the dependencies (& repective versions) needed by the React project to run
+
+
+- The generated folder "node_modules"
+    - Contains the downloaded & installed dependencies listed in the file "package.json"
