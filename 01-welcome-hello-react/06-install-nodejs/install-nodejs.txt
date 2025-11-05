@@ -1,0 +1,16 @@
+Install Node.JS
+---------------
+- Download the appropriate installer
+    - Get the LTS version
+    - Website (https://nodejs.org/en)
+
+
+- Once installation is successful
+    - Next is to create a Project using Vite
+
+    - Vite uses Node.JS
+        - To server (host) a React project
+            - Spins a local development server that allows to see live changes
+
+        - To provide the necessary environment for
+            - Running the server & handling requests
