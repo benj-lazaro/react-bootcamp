@@ -1,0 +1,67 @@
+Files And Folder Overview
+-------------------------
+- A brief overview of the generated project files by Vite
+    - When a React project is created
+
+
+- The file "index.html"
+    - The main HTML template or "root HTML" of a React application
+        - Just a normal HTML document
+
+    - Contains a HTML element <div>
+        - With an HTML attribute "id" with the value of "root"
+
+    - Contains a HTML element <script>
+        - With the HTML attribute "src" with the value of "src/main.jsx"
+        
+        - NOTE: Update this whenver "main.jsx" is renamed
+
+
+- The file "src/main.jsx" file
+    - This is the main React file
+        - Contains React components
+
+    - NOTE: This file can be renamed to something else
+        - Just remember to update the value of HTML element <script> in "index.html"
+
+    - The folder "src" contains all files containing React code 
+
+
+- The file "vite.config.js"
+    - A pre-defined Vite configuration file
+        - To customize build settings, plugins & path
+        - NOTE: Most of the time, will NOT work on this file
+
+
+- The file ".gitignore" file
+    - Defines files to be IGNORED by GitHub
+
+
+- THe folder "public"
+    - Contains all static assets (e.g. images)
+    - Often accessed from within the file "index.html"
+
+
+- Refactor the React project
+    - To start with a simple (and cleaner) project
+
+    - Delete the files
+        - src/App.css
+        - src/App.jsx
+        - src/index.css
+        - assets/react.svg
+
+    - Open the file "main.jsx"
+    
+    - Remove the following import statements
+
+        import './index.css'
+        import App from './App.jsx'
+
+    - Remove the component "<App />"
+        - Located within the pair of "<StrictMode>"
+        - Replace with the text "Hello"
+
+    - Save the changes
+        - React app reloads
+        - Renders the text "Hello" on the browser
