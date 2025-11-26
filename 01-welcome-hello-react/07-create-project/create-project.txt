@@ -5,90 +5,97 @@ Create Project
 
 
 - Open project folder in VS Code
-    - Launch an integrated terminal window
-    - NOTE: On Windows, this launches a PowerShell (PS) prompt
+    - Launch an Integrated Terminal window
+    - NOTE: On Windows, opens a PowerShell (PS) prompt
     
 
-- Use Node.JS's npm (node package manager) to create a Vite project
-
+- Excute the following command using npm (Node Package Manager) of Node.JS
+    
     npm create vite@latest
 
-    - NOTE: On Windows, might encounter the warning
+    - NOTE: On Windows, might encounter the following warning
 
-            "cannot be loaded because running scripts is disabled..."
+        "cannot be loaded because running scripts is disabled..."
 
     - To address this concern
-        - Run the PS command
+        - Execute the PowerShell command
 
             Set-ExecutionPolicy RemotedSigned -Scope CurrentUser
 
-        - Restart the VS Code editor
-            - Re-open the project folder and launch the integrated terminal window
+        - Then restart the VS Code editor
 
-        - Execute the npm command
+        - Re-open the project folder & launch an Integrated Terminal window
+
+        - Repeat the command 
 
             npm create vite@latest
 
 
-- The npm asks for confirmation to install the package "create-vite"
-    - Press 'y' to proceed
+- The npm (Node Package Manager) ask for confirmation
+    - To install the package "create-vite"
+    - Press "y" to proceed
 
 
-- The npm asks for the project's project name
-    - Provide the project name
-    - Press ENTER to proceed
+- Next, it asks for the project's name
+    - Provide the name of the project
+    - Then press ENTER to proceed
 
 
-- The npm asks for what JavaScript framework to install
-    - Use the arrow keys to select from the list 
-    - Choose "React"
-    - Press ENTER to proceed
+- Next, asks which JavaScript framework to install
+    - Using the arrow keys
+    - Select "React"
+    - Then press ENTER to proceed
 
 
-- The npm asks for a variant to install
-    - Use the arrow keys to select from the list 
-    - Choose "JavaScript"
-    - Press ENTER to proceed
-
-- The npm asks to use rolldown-vite (Experimental)
-    - Use the arrow keys to select from the list 
-    - Choose "No" (default)
-    - Press ENTER to proceed
-
- 
- - The npm asks to install with 'npm' and start now
-    - Use the arrow keys to select from the list 
-    - Choose "No" (default)
-    - Press ENTER to proceed
+- Next, asks for a (JavaScript) variant to install
+    - Using the arrow keys
+    - Select "JavaScript"
+    - Then press ENTER to proceed
 
 
-- The npm downloads and install dependencies in the background
-    - Vite generates the React project files
+- Next, asks if the project will use rolldown-vite (Experimental)
+    - Using the arrow keys
+    - Select "No" (default)
+    - Then press ENTER to proceed
 
 
-- The npm automatically runs and locally hosts the React project
-    - Generates a URL display in the "Local" field
-    - Copy & paste the generated URL on a browser
-    - Browser laods the starter React project
+- Next, asks to install with "npm" and to immediately start
+    - Using the arrow keys
+    - Select "No" (default)
+    - Then press ENTER to proceed
 
 
-- This procedure create a basic template for a 
-    - React project using plain JavaScript
+- The npm downloads & then installs the dependencies
+    - Then Vite generates the corresponding React project files
 
 
-- NOTE: To manually start the generated React project
-    - Open the integrated teminal window
+- The npm automatically runs & locally hosts the React project
+    - Generates a URL displayed in the "Local" field
+    - Hold down "CTRL" and then click the generated URL
+    - Launches the default browser & loads the started React project
+
+
+- To terminate a running React project
+    - Press "CTRL+C"
+
+
+- NOTE: This demonstrates the creation of a basic template for
+    - A React project using "plain vanilla" JavaScript
+
+
+- To manually restart the React project
+    - Launch the Integrated Terminal within the project folder
 
     - Execute the commands
 
-        cd <project_folder>/
+        npm install && npm audit fix
 
         npm run dev
 
 
-- The generated file "package.json" 
-    - Lists the dependencies (& repective versions) needed by the React project to run
+- The generated file "package.json" contains
+    - Dependencies & respective version number required by the React project
 
 
 - The generated folder "node_modules"
-    - Contains the downloaded & installed dependencies listed in the file "package.json"
+    - Contains the installed dependencies listed in the file "package.json"
