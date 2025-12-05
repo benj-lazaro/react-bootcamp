@@ -1,0 +1,28 @@
+Strict Mode
+-----------
+- The file "main.jsx" is a React application
+    - With a few lines of code
+
+
+- Within the code of the "main.jsx"
+    - "StrictMode" is imported from the React library
+
+        import { StrictMode } from "react";
+
+    - It is called liked a HTML element <StrictMode>
+
+        <StrictMode>...</StrictMode>
+
+
+- Think of "StrictMode" as a helper method that
+    - Inspects the code during development
+
+    - Warns about unsafe code and sport side-effects
+        - e.g. outdated lifecycle method(s)
+
+
+- Written a React application can be done w/out "StrictMode" in place
+    - Remove the corresponding "import" statement
+
+    - Replacing the component <StrictMode>
+        - With an HTML element <div> 
