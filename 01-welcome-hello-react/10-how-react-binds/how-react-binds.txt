@@ -4,7 +4,7 @@ How React Binds
     - On the starter project's file "src/main.jsx" 
     
 
-- The function "createRoot()" is called
+- The function "createRoot()"
     - Imported from "react-dom/client"
         - NOTE: React-DOM is part of React that renders content in the browser
 
