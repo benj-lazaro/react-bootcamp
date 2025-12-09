@@ -1,28 +1,32 @@
 Strict Mode
 -----------
-- The file "main.jsx" is a React application
-    - With a few lines of code
+- "StrictMode" is a helper Method that
+    - Double-checks your code during development
+
+    - Warns about unsafe code and spot side-effects
+        - e.g. Outdated lifecycle methods
+
+    - Help prepare code for future versions of React
+
+    - Does NOT CHANGE (or influence) the rendered output
+        - Seen by users on the browser
 
 
-- Within the code of the "main.jsx"
-    - "StrictMode" is imported from the React library
+- Within a React application (e.g. "src/main.jsx")
+    - It is imported using the statement
 
         import { StrictMode } from "react";
 
-    - It is called liked a HTML element <StrictMode>
+    - W/in the createRoot(document.getElementById('root'))render()
+        - Calls the Component <StrictMode> similar to that of a HTML element
+        - With the corresponding content placed in-between
 
-        <StrictMode>...</StrictMode>
-
-
-- Think of "StrictMode" as a helper method that
-    - Inspects the code during development
-
-    - Warns about unsafe code and sport side-effects
-        - e.g. outdated lifecycle method(s)
+        <StrictMode>
+            ...
+        </StrictMode>
 
 
-- Written a React application can be done w/out "StrictMode" in place
+- "StrictMode" can be removed from a React application
     - Remove the corresponding "import" statement
 
-    - Replacing the component <StrictMode>
-        - With an HTML element <div> 
+    - Replace the Component <StrictMode> w/ an HTML element <div>
