@@ -1,3 +1,22 @@
 How React Binds
 ---------------
--
+- A walkthrough on how a React app works
+    - On the starter project's file "src/main.jsx" 
+    
+
+- The function "createRoot()" is called
+    - Imported from "react-dom/client"
+        - NOTE: React-DOM is part of React that renders content in the browser
+
+    - The document Method ".getElementById()" is called w/in the function's parameter list
+        - To select an HTML element w/in "index.html"
+
+            <div id="root"></div>
+
+    - Chain calls another docuement Method ".render()"
+        - Accepts content (e.g. HTML element & data) as argument value 
+
+        - The content will be rendered w/in the selected HTML element 
+
+        - NOTE: Any previous content w/in the selected HTML will be overwritten
+
