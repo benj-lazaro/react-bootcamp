@@ -1,7 +1,7 @@
 How React Binds
 ---------------
 - A walkthrough on how a React app works
-    - On the starter project's file "src/main.jsx" 
+    - Using the starter file's "src/main.jsx"
     
 
 - The function "createRoot()"
